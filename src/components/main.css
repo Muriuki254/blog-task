@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+}
+.main-content {
+    height: 100vh;
+    width: 70%;
+    background-color: cadetblue;
+}
+.main-aside {
+    width: 30%;
+    height: 100vh;
+    background-color: #b1283b;
+}
