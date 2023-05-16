@@ -3,11 +3,19 @@
 }
 .main-content {
     height: 100vh;
+    padding: 1.2rem;
     width: 70%;
-    background-color: cadetblue;
+    background-color: rgb(153, 209, 211);
 }
 .main-aside {
     width: 30%;
+    padding: 1.2rem;
     height: 100vh;
-    background-color: #b1283b;
+    background-color: #adb44886;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 15px;
 }
