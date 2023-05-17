@@ -1,5 +1,5 @@
 import "./main.css"
-import logo from './public/vite.png';
+import logo from './images/vite.svg';
 function Navbar() {
     return (
         <div className="navbar">
