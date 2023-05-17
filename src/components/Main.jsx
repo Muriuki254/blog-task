@@ -26,30 +26,29 @@ function Main (){
     ]
     const highlights = [
         {
-            "title": "Highlights",
-            "icon": "fa-solid fa-star",
+            "title": "Highlights"
         
         },
         {
             "title": "Frontend Side",
-            "icon": "fa-solid fa-code",
+            "content": "HTML, CSS, JavaScript, React, Angular, Vue, Tailwind CSS",
         },
         {
             "title": "Backend Side",
-            "icon": "fa-solid fa-code",
+            "content": "Node.js, Express, Django, Flask, Laravel, Ruby on Rails, Spring Boot",
         },
         {
             "title": "Database Side",
-            "icon": "fa-solid fa-database",
+            "content": "MySQL, PostgreSQL, MongoDB, Redis, SQLite, Oracle, SQL Server",
         },
         {
             "title": "DevOps Side",
-            "icon": "fa-solid fa-code-branch",
+            "content": "Git, GitHub, Docker, Kubernetes,AWS, Azure, Google Cloud",
         
         },
         {
             "title": "API Side",
-            "icon": "fa-solid fa-code",
+            "content": "REST, GraphQL, JSON, XML, gRPC, SOAP",
         }
     ]
     return (
@@ -71,8 +70,11 @@ function Main (){
                     highlights.map((highlight , index) => {
                         return (
                             <div className="main-aside-card" key={index}>
-                                <i className={highlight.icon}></i>
-                                <h2>{highlight.title}</h2>
+                                <li>
+                                    <h2>{highlight.title}</h2>
+                                    <p>{highlight.content}</p>
+                                </li>
+                                
                             </div>
                         )
                     })
