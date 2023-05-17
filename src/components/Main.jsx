@@ -19,10 +19,10 @@ function Main (){
             "description": "DevOps is a set of practices and tools that are used to automate the process of building, deploying, and managing a software system. DevOps practices include: ",
         
         },
-        {
-            "title": "API Side",
-            "description": "API (Application Programming Interface) technologies in web development allow different software systems to communicate and interact with each other. APIs enable developers to access and manipulate data, functionality, and services provided by external systems, platforms, or applications.",
-        }
+        // {
+        //     "title": "API Side",
+        //     "description": "API (Application Programming Interface) technologies in web development allow different software systems to communicate and interact with each other. APIs enable developers to access and manipulate data, functionality, and services provided by external systems, platforms, or applications.",
+        // }
     ]
     const highlights = [
         {
@@ -70,10 +70,8 @@ function Main (){
                     highlights.map((highlight , index) => {
                         return (
                             <div className="main-aside-card" key={index}>
-                                <li>
-                                    <h2>{highlight.title}</h2>
-                                    <p>{highlight.content}</p>
-                                </li>
+                                <h2>{highlight.title}</h2>
+                                <p>{highlight.content}</p>
                                 
                             </div>
                         )
