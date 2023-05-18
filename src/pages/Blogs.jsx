@@ -1,6 +1,6 @@
-import "./main.css"
+import "./style.css"
 
-function Main (){
+function Blogs() {
     const blogs = [
         {
             "title": "Frontend Side",
@@ -51,8 +51,9 @@ function Main (){
             "content": "REST, GraphQL, JSON, XML, gRPC, SOAP",
         }
     ]
-    return (
-        <div className="main">
+
+  return (
+    <div className="main">
             <div className="main-content">
                 {
                     blogs.map((blog , index) => {
@@ -80,8 +81,7 @@ function Main (){
 
             </div>
         </div>
-    )
-
+  )
 }
 
-export default Main;
+export default Blogs
