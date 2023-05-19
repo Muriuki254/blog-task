@@ -54,7 +54,7 @@ function Blogs() {
 
   return (
     <>
-    <h1>Web Development Technologies </h1>
+    <h3>Development Technologies </h3>
     <div className="main">
             <div className="main-content">
                 {
