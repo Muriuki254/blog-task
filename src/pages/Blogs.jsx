@@ -53,6 +53,8 @@ function Blogs() {
     ]
 
   return (
+    <>
+    <h1>Web Development Technologies </h1>
     <div className="main">
             <div className="main-content">
                 {
@@ -81,6 +83,9 @@ function Blogs() {
 
             </div>
         </div>
+
+    </>
+    
   )
 }
 

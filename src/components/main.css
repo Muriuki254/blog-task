@@ -7,7 +7,30 @@
 }
 .navbar {
     display: flex;
-    gap: 1rem;
-    height: 10vh;
+    height: 5vh;
     padding: 15px;
+    gap: 20rem;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+}
+.navbar-items{
+    display:flex;
+    gap: 5rem;
+    /* justify-content: flex-end; */
+}
+.navLink{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 3px;
+    color: green;
+
+}
+.navbar-items a:hover{
+    color: purple;
+}
+.navbar-title{
+    display: flex;
+    align-items: center;
+    color: green;
 }

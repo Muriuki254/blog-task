@@ -1,18 +1,18 @@
 import "./main.css"
-import logo from './images/vite.svg';
+// import logo from './images/vite.svg';
 import { Link } from 'react-router-dom'
 import { FaHome, FaInfoCircle, FaBook } from "react-icons/fa"
 function Navbar() {
     return (
         <div className="navbar">
-            <img src={logo} alt="" />
-            <div style={{ display: "flex", gap: "8rem" }}>
-                <Link to='/home' className="navLink" style={{ display: "flex", gap: "3px", alignItems: "center", textDecoration: "none", color: "brown" }}><FaHome />Home</Link>
-                <Link to='/about' style={{ display: "flex", alignItems: "center", gap: "3px", textDecoration: "none", color: "purple" }}><FaInfoCircle /> About</Link>
-                <Link to='/' style={{ display: "flex", alignItems: "center", gap: "3px", textDecoration: "none", color: "green" }}><FaBook /> Blogs</Link>
+            {/* <img src={logo} alt=""/> */}
+            <h1 className="navbar-title">WEB DEV NEWS</h1>
+            <div className="navbar-items">
+                <Link to='/home' className="navLink"><FaHome />Home</Link>
+                <Link to='/' className="navLink"><FaBook /> Blogs</Link>
+                <Link to='/about' className="navLink"><FaInfoCircle /> About</Link>
+                
             </div>
-
-            <h1>Web Development Technologies </h1>
         </div>
     );
 }
